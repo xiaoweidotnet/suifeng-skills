@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "帮我设计一个用户反馈功能，用户可以提交意见并查看回复",
+    "expected": "先列出假设，再生成包含 Objective/Tech Stack/Commands/Project Structure/Code Style/Testing Strategy/Boundaries/Success Criteria/Open Questions 的完整 spec.md"
+  },
+  {
+    "id": 2,
+    "prompt": "我想在现有的订单系统里加个导出功能，能导出 Excel，就这样",
+    "expected": "主动提出假设并追问（导出哪些字段？筛选条件？权限？），将"导出Excel"转为具体验收标准，必要时使用 lightweight spec 模板"
+  },
+  {
+    "id": 3,
+    "prompt": "我们需要对现有的登录系统做升级，支持手机号+验证码登录，同时保留现有的密码登录方式",
+    "expected": "识别架构决策点（短信服务商、验证码存储、session策略），生成 spec 文档，明确 Open Questions；生成后指向 planning-and-task-breakdown"
+  }
+]

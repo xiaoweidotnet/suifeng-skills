@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "prompt": "帮我看一下 docs/modules/module-rental-demand.md 这个求租信息模块，根据模块描述和 doc/schema.sql 里的表结构，把接口设计文档推理出来",
+    "expected": "生成包含接口总览、参数详情、审核+付费查看流程图、待确认问题的完整 Markdown 文档"
+  },
+  {
+    "id": 2,
+    "prompt": "我需要给合同管理模块设计 API，表结构在 doc/schema.sql 的 contract、contract_attachment、contract_payment 三张表，模块说明在 docs/modules/module-contract.md",
+    "expected": "生成合同 CRUD + 收款确认 + 附件上传的接口文档，包含 Mermaid 流程图"
+  },
+  {
+    "id": 3,
+    "prompt": "消息中心模块比较简单，就是消息列表、标记已读、未读计数这些功能。参考 doc/schema.sql 的 message 表和 docs/modules/module-message.md",
+    "expected": "生成精简的接口文档，不包含 CRUD 全集（消息不能手动创建/删除），只有列表查询、标记已读、未读计数等必要接口"
+  }
+]
